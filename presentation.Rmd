@@ -1,0 +1,42 @@
+---
+title: "Presentation"
+author: "### Joseph Marcus"
+date: "<small>*`r format(Sys.time(), '%d %B, %Y')`*</small>"
+output:
+  revealjs::revealjs_presentation:
+    css: css/style.css
+    theme: simple
+    center: true
+    transition: slide
+    self_contained: false
+    reveal_plugins: ["chalkboard", "notes"]
+    reveal_options:
+      slideNumber: false
+      previewLinks: true
+      chalkboard:
+        theme: whiteboard
+        toggleNotesButton: false
+---
+
+## R Markdown
+
+$$\frac{x}{2}$$
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Code and Output
+
+```{r}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
