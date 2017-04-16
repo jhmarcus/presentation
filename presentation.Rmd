@@ -4,7 +4,7 @@ author: "### Joseph Marcus"
 date: "<small>*`r format(Sys.time(), '%d %B, %Y')`*</small>"
 output:
   revealjs::revealjs_presentation:
-    css: css/style.css
+    css: css/trvrb.css
     theme: simple
     center: true
     transition: slide
