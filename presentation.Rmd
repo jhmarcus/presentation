@@ -1,7 +1,7 @@
 ---
-title: "Presentation"
-author: "### Joseph Marcus"
-date: "<small>*`r format(Sys.time(), '%d %B, %Y')`*</small>"
+title: ""
+author: ""
+date: ""
 output:
   revealjs::revealjs_presentation:
     css: css/trvrb.css
@@ -9,34 +9,23 @@ output:
     center: true
     transition: slide
     self_contained: false
-    reveal_plugins: ["chalkboard", "notes"]
+    reveal_plugins: ["notes"]
     reveal_options:
-      slideNumber: false
+      slideNumber: true
       previewLinks: true
-      chalkboard:
-        theme: whiteboard
-        toggleNotesButton: false
 ---
 
-## R Markdown
+## Title
 
-$$\frac{x}{2}$$
+<p>
+Joseph Marcus
+<br>
+<small>*Date*</small>
+<br><br>
+</p>
 
-## Slide with Bullets
+<img src="./img/logo.png" style="width:150px;height:140px;">
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+<small>*Department of Human Genetics, University of Chicago*</small>
 
-## Slide with R Code and Output
-
-```{r}
-summary(cars)
-```
-
-## Slide with Plot
-
-```{r, echo=FALSE}
-plot(cars)
-```
-
+##

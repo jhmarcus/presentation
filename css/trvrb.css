@@ -12,20 +12,21 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background-color: white; }
+  background-color: white;
+}
 
 .reveal {
   font-family: "Lato", sans-serif;
-  font-size: 34px;
-  font-weight: 300;  
+  font-size: 28px;
+  font-weight: 300;
   color: #333333; }
 
 ::selection {
   color: white;
   background: #134674;
-  text-shadow: none; 
+  text-shadow: none;
 }
-  
+
 /*********************************************
  * HEADERS
  *********************************************/
@@ -41,7 +42,7 @@ body {
   font-weight: 300;
   text-shadow: none;
 }
-  
+
 .reveal h6 {
 	font-size: 0.5em;
 }
@@ -152,11 +153,11 @@ body {
 /*********************************************
  * SLIDE NUMBER
 *********************************************/
-  
+
 .reveal .slides section .fragment.strike-through {
 	opacity: 1;
-}  
-  
+}
+
 .reveal .slides section .fragment.strike-through.visible {
   text-decoration: line-through;
 }
@@ -175,13 +176,13 @@ body {
 .reveal .controls div.navigate-left {
   left: 24px;
   top: 66px;
-  border-right-width: 20px;  
+  border-right-width: 20px;
 }
 
 .reveal .controls div.navigate-right {
   left: 76px;
   top: 66px;
-  border-left-width: 20px;    
+  border-left-width: 20px;
 }
 
 /*********************************************
@@ -194,7 +195,7 @@ body {
   border-spacing: 0; }
 
 .reveal table th {
-  font-weight: 500 !important; 
+  font-weight: 500 !important;
 }
 
 .reveal table th, .reveal table td {
@@ -210,8 +211,8 @@ body {
 
 .reveal table tr:last-child td {
   border-bottom: none; }
-  
-  
+
+
 .reveal section img { background:none; border:none; box-shadow:none; }
 
 img[alt=drawing] { width: 50px; }
