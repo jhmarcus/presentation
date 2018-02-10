@@ -1,9 +1,9 @@
 <!-- .slide: class="center" -->
-# Presentation title
+# *Presentation title*
 
-## *Joseph Marcus*
+### Joseph Marcus
 
-*date*
+date
 
 Note:
 This is a presentation note
